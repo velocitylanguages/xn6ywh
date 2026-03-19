@@ -29,7 +29,37 @@
       "german": "Geduld, gewinnt das Spiel.",
       "category": "Wisdom",
       "generated_at": "2026-03-19T17:44:26.595617"
+    },
+    {
+      "english": "Believe in yourself, it's the first step.",
+      "german": "Glaube an dich, das ist der erste Schritt.",
+      "category": "Hope",
+      "generated_at": "2026-03-19T21:01:46.197533"
+    },
+    {
+      "english": "Every day, a new beginning.",
+      "german": "Jeder Tag, ein neuer Anfang.",
+      "category": "Hope",
+      "generated_at": "2026-03-19T21:01:46.197542"
+    },
+    {
+      "english": "Keep moving forward, don't give up.",
+      "german": "Geh weiter vorwärts, gib nicht auf.",
+      "category": "Hope",
+      "generated_at": "2026-03-19T21:01:46.197548"
+    },
+    {
+      "english": "Good things, will happen soon.",
+      "german": "Gute Dinge, werden bald passieren.",
+      "category": "Hope",
+      "generated_at": "2026-03-19T21:01:46.197549"
+    },
+    {
+      "english": "You are stronger, than you think.",
+      "german": "Du bist stärker, als du denkst.",
+      "category": "Hope",
+      "generated_at": "2026-03-19T21:01:46.197550"
     }
   ],
-  "last_updated": "2026-03-19T17:44:26.595619"
+  "last_updated": "2026-03-19T21:01:46.197552"
 }
