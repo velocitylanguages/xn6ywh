@@ -1,4 +1,4 @@
-name: Velocity French - Daily 5x Upload
+name: Velocity german - Daily 5x Upload
 
 on:
   # Schedule 5 posts per day (American EST/EDT time)
