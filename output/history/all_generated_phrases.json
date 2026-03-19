@@ -59,7 +59,37 @@
       "german": "Du bist stärker, als du denkst.",
       "category": "Hope",
       "generated_at": "2026-03-19T21:01:46.197550"
+    },
+    {
+      "english": "I'm sorry, really.",
+      "german": "Es tut mir leid, wirklich.",
+      "category": "Forgiveness",
+      "generated_at": "2026-03-19T23:01:31.251475"
+    },
+    {
+      "english": "Please forgive me, okay?",
+      "german": "Bitte verzeih mir, ja?",
+      "category": "Forgiveness",
+      "generated_at": "2026-03-19T23:01:31.251484"
+    },
+    {
+      "english": "My mistake, I admit.",
+      "german": "Mein Fehler, ich gebe zu.",
+      "category": "Forgiveness",
+      "generated_at": "2026-03-19T23:01:31.251485"
+    },
+    {
+      "english": "Can we move past this?",
+      "german": "Können wir das hinter uns lassen?",
+      "category": "Forgiveness",
+      "generated_at": "2026-03-19T23:01:31.251487"
+    },
+    {
+      "english": "I regret it, truly.",
+      "german": "Ich bedauere es, aufrichtig.",
+      "category": "Forgiveness",
+      "generated_at": "2026-03-19T23:01:31.251488"
     }
   ],
-  "last_updated": "2026-03-19T21:01:46.197552"
+  "last_updated": "2026-03-19T23:01:31.251490"
 }
