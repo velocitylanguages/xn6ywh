@@ -179,7 +179,37 @@
       "german": "Zufriedenheit, ist ein Geschenk.",
       "category": "Happiness",
       "generated_at": "2026-03-20T17:56:31.602791"
+    },
+    {
+      "english": "Thank you, for everything.",
+      "german": "Danke, für alles.",
+      "category": "Gratitude",
+      "generated_at": "2026-03-20T20:01:25.583658"
+    },
+    {
+      "english": "I appreciate, your help.",
+      "german": "Ich schätze, deine Hilfe.",
+      "category": "Gratitude",
+      "generated_at": "2026-03-20T20:01:25.583667"
+    },
+    {
+      "english": "So kind, of you.",
+      "german": "Sehr nett, von dir.",
+      "category": "Gratitude",
+      "generated_at": "2026-03-20T20:01:25.583669"
+    },
+    {
+      "english": "I am grateful, truly.",
+      "german": "Ich bin dankbar, wirklich.",
+      "category": "Gratitude",
+      "generated_at": "2026-03-20T20:01:25.583670"
+    },
+    {
+      "english": "Thanks a lot, friend.",
+      "german": "Vielen Dank, Freund.",
+      "category": "Gratitude",
+      "generated_at": "2026-03-20T20:01:25.583671"
     }
   ],
-  "last_updated": "2026-03-20T17:56:31.602794"
+  "last_updated": "2026-03-20T20:01:25.583673"
 }
