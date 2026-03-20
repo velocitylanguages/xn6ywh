@@ -209,7 +209,37 @@
       "german": "Vielen Dank, Freund.",
       "category": "Gratitude",
       "generated_at": "2026-03-20T20:01:25.583671"
+    },
+    {
+      "english": "Breathe in, breathe out.",
+      "german": "Atme ein, atme aus.",
+      "category": "Mindfulness",
+      "generated_at": "2026-03-20T23:00:37.158046"
+    },
+    {
+      "english": "Just be, right now.",
+      "german": "Sei einfach, jetzt hier.",
+      "category": "Mindfulness",
+      "generated_at": "2026-03-20T23:00:37.158054"
+    },
+    {
+      "english": "Feel the moment, fully.",
+      "german": "Fühle den Moment, ganz.",
+      "category": "Mindfulness",
+      "generated_at": "2026-03-20T23:00:37.158055"
+    },
+    {
+      "english": "Quiet mind, calm heart.",
+      "german": "Stiller Geist, ruhiges Herz.",
+      "category": "Mindfulness",
+      "generated_at": "2026-03-20T23:00:37.158056"
+    },
+    {
+      "english": "One breath, at a time.",
+      "german": "Ein Atemzug, nach dem andern.",
+      "category": "Mindfulness",
+      "generated_at": "2026-03-20T23:00:37.158058"
     }
   ],
-  "last_updated": "2026-03-20T20:01:25.583673"
+  "last_updated": "2026-03-20T23:00:37.158059"
 }
