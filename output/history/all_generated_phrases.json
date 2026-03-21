@@ -299,7 +299,37 @@
       "german": "Sprich laut, deine Stimme zählt.",
       "category": "Confidence",
       "generated_at": "2026-03-21T14:02:58.655352"
+    },
+    {
+      "english": "My heart beats, for you.",
+      "german": "Mein Herz schlägt, für dich.",
+      "category": "Love",
+      "generated_at": "2026-03-21T16:59:53.437526"
+    },
+    {
+      "english": "You are, my everything.",
+      "german": "Du bist, mein Alles.",
+      "category": "Love",
+      "generated_at": "2026-03-21T16:59:53.437534"
+    },
+    {
+      "english": "I love you, deeply.",
+      "german": "Ich liebe dich, sehr.",
+      "category": "Love",
+      "generated_at": "2026-03-21T16:59:53.437535"
+    },
+    {
+      "english": "You make me, happy.",
+      "german": "Du machst mich, glücklich.",
+      "category": "Love",
+      "generated_at": "2026-03-21T16:59:53.437537"
+    },
+    {
+      "english": "Thinking of you, always.",
+      "german": "Ich denke an dich, immer.",
+      "category": "Love",
+      "generated_at": "2026-03-21T16:59:53.437538"
     }
   ],
-  "last_updated": "2026-03-21T14:02:58.655354"
+  "last_updated": "2026-03-21T16:59:53.437539"
 }
