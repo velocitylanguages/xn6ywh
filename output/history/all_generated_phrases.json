@@ -239,7 +239,37 @@
       "german": "Ein Atemzug, nach dem andern.",
       "category": "Mindfulness",
       "generated_at": "2026-03-20T23:00:37.158058"
+    },
+    {
+      "english": "Find your calm center.",
+      "german": "Finde dein ruhiges Zentrum.",
+      "category": "Inner Peace",
+      "generated_at": "2026-03-21T05:11:15.918180"
+    },
+    {
+      "english": "Let worries drift away.",
+      "german": "Lass Sorgen treiben davon.",
+      "category": "Inner Peace",
+      "generated_at": "2026-03-21T05:11:15.918189"
+    },
+    {
+      "english": "Quiet mind, happy heart.",
+      "german": "Stiller Geist, frohes Herz.",
+      "category": "Inner Peace",
+      "generated_at": "2026-03-21T05:11:15.918191"
+    },
+    {
+      "english": "Be present, right now.",
+      "german": "Sei präsent, genau jetzt.",
+      "category": "Inner Peace",
+      "generated_at": "2026-03-21T05:11:15.918206"
+    },
+    {
+      "english": "Inner peace, grows within.",
+      "german": "Innerer Frieden, wächst in dir.",
+      "category": "Inner Peace",
+      "generated_at": "2026-03-21T05:11:15.918208"
     }
   ],
-  "last_updated": "2026-03-20T23:00:37.158059"
+  "last_updated": "2026-03-21T05:11:15.918210"
 }
