@@ -269,7 +269,37 @@
       "german": "Innerer Frieden, wächst in dir.",
       "category": "Inner Peace",
       "generated_at": "2026-03-21T05:11:15.918208"
+    },
+    {
+      "english": "You got this, breathe deep.",
+      "german": "Du schaffst das, tief atmen.",
+      "category": "Confidence",
+      "generated_at": "2026-03-21T14:02:58.655335"
+    },
+    {
+      "english": "Just try, it's okay.",
+      "german": "Versuch's einfach, es ist okay.",
+      "category": "Confidence",
+      "generated_at": "2026-03-21T14:02:58.655346"
+    },
+    {
+      "english": "One step, then another.",
+      "german": "Ein Schritt, dann noch einer.",
+      "category": "Confidence",
+      "generated_at": "2026-03-21T14:02:58.655348"
+    },
+    {
+      "english": "Mistakes are learning, embrace them.",
+      "german": "Fehler sind Lernen, nimm sie an.",
+      "category": "Confidence",
+      "generated_at": "2026-03-21T14:02:58.655350"
+    },
+    {
+      "english": "Speak up, your voice matters.",
+      "german": "Sprich laut, deine Stimme zählt.",
+      "category": "Confidence",
+      "generated_at": "2026-03-21T14:02:58.655352"
     }
   ],
-  "last_updated": "2026-03-21T05:11:15.918210"
+  "last_updated": "2026-03-21T14:02:58.655354"
 }
