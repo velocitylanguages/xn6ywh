@@ -389,7 +389,37 @@
       "german": "Hellere Tage, kommen bald.",
       "category": "Hope",
       "generated_at": "2026-03-22T05:35:36.511249"
+    },
+    {
+      "english": "Be kind, always.",
+      "german": "Sei nett, immer.",
+      "category": "Kindness",
+      "generated_at": "2026-03-22T14:05:02.403864"
+    },
+    {
+      "english": "Share your smile, please.",
+      "german": "Teile dein Lächeln, bitte.",
+      "category": "Kindness",
+      "generated_at": "2026-03-22T14:05:02.403873"
+    },
+    {
+      "english": "Help others, gently.",
+      "german": "Hilf anderen, sanft.",
+      "category": "Kindness",
+      "generated_at": "2026-03-22T14:05:02.403875"
+    },
+    {
+      "english": "Offer a hand, today.",
+      "german": "Reiche eine Hand, heute.",
+      "category": "Kindness",
+      "generated_at": "2026-03-22T14:05:02.403876"
+    },
+    {
+      "english": "Listen well, truly.",
+      "german": "Höre gut zu, wirklich.",
+      "category": "Kindness",
+      "generated_at": "2026-03-22T14:05:02.403877"
     }
   ],
-  "last_updated": "2026-03-22T05:35:36.511251"
+  "last_updated": "2026-03-22T14:05:02.403878"
 }
