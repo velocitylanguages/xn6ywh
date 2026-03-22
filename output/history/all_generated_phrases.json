@@ -359,7 +359,37 @@
       "german": "Deine Mühe, wird sich lohnen.",
       "category": "Perseverance",
       "generated_at": "2026-03-21T19:47:03.699890"
+    },
+    {
+      "english": "A little progress, every day.",
+      "german": "Ein kleiner Fortschritt, jeden Tag.",
+      "category": "Hope",
+      "generated_at": "2026-03-22T05:35:36.511232"
+    },
+    {
+      "english": "Focus on the good, it grows.",
+      "german": "Konzentriere dich aufs Gute, es wächst.",
+      "category": "Hope",
+      "generated_at": "2026-03-22T05:35:36.511245"
+    },
+    {
+      "english": "Tomorrow is, another chance.",
+      "german": "Morgen ist, eine neue Chance.",
+      "category": "Hope",
+      "generated_at": "2026-03-22T05:35:36.511246"
+    },
+    {
+      "english": "Hold on tight, it gets better.",
+      "german": "Halte fest, es wird besser.",
+      "category": "Hope",
+      "generated_at": "2026-03-22T05:35:36.511248"
+    },
+    {
+      "english": "Brighter days, are coming.",
+      "german": "Hellere Tage, kommen bald.",
+      "category": "Hope",
+      "generated_at": "2026-03-22T05:35:36.511249"
     }
   ],
-  "last_updated": "2026-03-21T19:47:03.699891"
+  "last_updated": "2026-03-22T05:35:36.511251"
 }
