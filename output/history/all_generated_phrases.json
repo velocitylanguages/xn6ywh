@@ -569,7 +569,37 @@
       "german": "Sanfte Schritte, vorwärts.",
       "category": "Mindfulness",
       "generated_at": "2026-03-23T16:14:31.314510"
+    },
+    {
+      "english": "Find your center, breathe in.",
+      "german": "Finde deine Mitte, atme ein.",
+      "category": "Balance",
+      "generated_at": "2026-03-23T18:35:15.318573"
+    },
+    {
+      "english": "Steady hands, calm mind.",
+      "german": "Feste Hände, ruhiger Geist.",
+      "category": "Balance",
+      "generated_at": "2026-03-23T18:35:15.318582"
+    },
+    {
+      "english": "Slow down, feel the ground.",
+      "german": "Langsam, spüre den Boden.",
+      "category": "Balance",
+      "generated_at": "2026-03-23T18:35:15.318584"
+    },
+    {
+      "english": "Hold steady, don't sway.",
+      "german": "Bleib ruhig, schwanke nicht.",
+      "category": "Balance",
+      "generated_at": "2026-03-23T18:35:15.318585"
+    },
+    {
+      "english": "Focus here, right now.",
+      "german": "Konzentrier dich hier, jetzt.",
+      "category": "Balance",
+      "generated_at": "2026-03-23T18:35:15.318586"
     }
   ],
-  "last_updated": "2026-03-23T16:14:31.314511"
+  "last_updated": "2026-03-23T18:35:15.318588"
 }
