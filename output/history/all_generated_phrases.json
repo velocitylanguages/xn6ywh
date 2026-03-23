@@ -539,7 +539,37 @@
       "german": "Jedes Wort zählt, sprich weiter.",
       "category": "Confidence",
       "generated_at": "2026-03-23T05:58:40.819192"
+    },
+    {
+      "english": "Let go, of worries.",
+      "german": "Lass los, die Sorgen.",
+      "category": "Mindfulness",
+      "generated_at": "2026-03-23T16:14:31.314496"
+    },
+    {
+      "english": "Be present, with yourself.",
+      "german": "Sei präsent, mit dir.",
+      "category": "Mindfulness",
+      "generated_at": "2026-03-23T16:14:31.314505"
+    },
+    {
+      "english": "Listen deep, within.",
+      "german": "Höre tief, nach innen.",
+      "category": "Mindfulness",
+      "generated_at": "2026-03-23T16:14:31.314507"
+    },
+    {
+      "english": "This is, enough.",
+      "german": "Das ist, genug.",
+      "category": "Mindfulness",
+      "generated_at": "2026-03-23T16:14:31.314509"
+    },
+    {
+      "english": "Gentle steps, forward.",
+      "german": "Sanfte Schritte, vorwärts.",
+      "category": "Mindfulness",
+      "generated_at": "2026-03-23T16:14:31.314510"
     }
   ],
-  "last_updated": "2026-03-23T05:58:40.819193"
+  "last_updated": "2026-03-23T16:14:31.314511"
 }
