@@ -599,7 +599,37 @@
       "german": "Konzentrier dich hier, jetzt.",
       "category": "Balance",
       "generated_at": "2026-03-23T18:35:15.318586"
+    },
+    {
+      "english": "This means, a lot.",
+      "german": "Das bedeutet, viel.",
+      "category": "Gratitude",
+      "generated_at": "2026-03-23T20:58:32.559889"
+    },
+    {
+      "english": "You are amazing, thank you.",
+      "german": "Du bist toll, danke.",
+      "category": "Gratitude",
+      "generated_at": "2026-03-23T20:58:32.559894"
+    },
+    {
+      "english": "With gratitude, I say.",
+      "german": "Mit Dankbarkeit, sage ich.",
+      "category": "Gratitude",
+      "generated_at": "2026-03-23T20:58:32.559895"
+    },
+    {
+      "english": "So thoughtful, thank you.",
+      "german": "So aufmerksam, danke.",
+      "category": "Gratitude",
+      "generated_at": "2026-03-23T20:58:32.559896"
+    },
+    {
+      "english": "You saved, my day.",
+      "german": "Du rettetest, meinen Tag.",
+      "category": "Gratitude",
+      "generated_at": "2026-03-23T20:58:32.559897"
     }
   ],
-  "last_updated": "2026-03-23T18:35:15.318588"
+  "last_updated": "2026-03-23T20:58:32.559899"
 }
