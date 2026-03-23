@@ -509,7 +509,37 @@
       "german": "Leuchte hell, sei froh.",
       "category": "Happiness",
       "generated_at": "2026-03-22T22:57:02.323318"
+    },
+    {
+      "english": "Keep going, you're improving.",
+      "german": "Mach weiter, du verbesserst dich.",
+      "category": "Confidence",
+      "generated_at": "2026-03-23T05:58:40.819180"
+    },
+    {
+      "english": "It's a journey, enjoy it.",
+      "german": "Es ist eine Reise, genieße sie.",
+      "category": "Confidence",
+      "generated_at": "2026-03-23T05:58:40.819188"
+    },
+    {
+      "english": "Don't be afraid, just try.",
+      "german": "Hab keine Angst, versuch's nur.",
+      "category": "Confidence",
+      "generated_at": "2026-03-23T05:58:40.819189"
+    },
+    {
+      "english": "You're doing great, really.",
+      "german": "Du machst das toll, wirklich.",
+      "category": "Confidence",
+      "generated_at": "2026-03-23T05:58:40.819191"
+    },
+    {
+      "english": "Every word counts, keep speaking.",
+      "german": "Jedes Wort zählt, sprich weiter.",
+      "category": "Confidence",
+      "generated_at": "2026-03-23T05:58:40.819192"
     }
   ],
-  "last_updated": "2026-03-22T22:57:02.323320"
+  "last_updated": "2026-03-23T05:58:40.819193"
 }
