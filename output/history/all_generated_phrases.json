@@ -689,7 +689,37 @@
       "german": "Dein Einsatz, dein Lohn.",
       "category": "Motivation",
       "generated_at": "2026-03-24T19:38:18.256066"
+    },
+    {
+      "english": "You are, my sunshine.",
+      "german": "Du bist, mein Sonnenschein.",
+      "category": "Love",
+      "generated_at": "2026-03-24T21:01:38.890367"
+    },
+    {
+      "english": "My love, for you, grows.",
+      "german": "Meine Liebe, zu dir, wächst.",
+      "category": "Love",
+      "generated_at": "2026-03-24T21:01:38.890375"
+    },
+    {
+      "english": "You are, my dream.",
+      "german": "Du bist, mein Traum.",
+      "category": "Love",
+      "generated_at": "2026-03-24T21:01:38.890377"
+    },
+    {
+      "english": "I miss you, so much.",
+      "german": "Ich vermisse dich, sehr.",
+      "category": "Love",
+      "generated_at": "2026-03-24T21:01:38.890378"
+    },
+    {
+      "english": "You are, my soulmate.",
+      "german": "Du bist, mein Seelenverwandter.",
+      "category": "Love",
+      "generated_at": "2026-03-24T21:01:38.890379"
     }
   ],
-  "last_updated": "2026-03-24T19:38:18.256068"
+  "last_updated": "2026-03-24T21:01:38.890380"
 }
