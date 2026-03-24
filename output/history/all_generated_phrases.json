@@ -659,7 +659,37 @@
       "german": "So erfreut, sehr.",
       "category": "Joy",
       "generated_at": "2026-03-24T16:41:35.143854"
+    },
+    {
+      "english": "Little steps, big progress.",
+      "german": "Kleine Schritte, großer Fortschritt.",
+      "category": "Motivation",
+      "generated_at": "2026-03-24T19:38:18.256054"
+    },
+    {
+      "english": "Don't fear mistakes, learn from them.",
+      "german": "Keine Angst vor Fehlern, lerne daraus.",
+      "category": "Motivation",
+      "generated_at": "2026-03-24T19:38:18.256063"
+    },
+    {
+      "english": "Each word, a new world.",
+      "german": "Jedes Wort, eine neue Welt.",
+      "category": "Motivation",
+      "generated_at": "2026-03-24T19:38:18.256064"
+    },
+    {
+      "english": "Keep practicing, you'll get there.",
+      "german": "Üben, üben, du schaffst das.",
+      "category": "Motivation",
+      "generated_at": "2026-03-24T19:38:18.256065"
+    },
+    {
+      "english": "Your effort, your reward.",
+      "german": "Dein Einsatz, dein Lohn.",
+      "category": "Motivation",
+      "generated_at": "2026-03-24T19:38:18.256066"
     }
   ],
-  "last_updated": "2026-03-24T16:41:35.143856"
+  "last_updated": "2026-03-24T19:38:18.256068"
 }
