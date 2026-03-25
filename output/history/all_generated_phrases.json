@@ -749,7 +749,37 @@
       "german": "Stelle Fragen, immer.",
       "category": "Growth",
       "generated_at": "2026-03-24T23:04:05.696698"
+    },
+    {
+      "english": "Learn German, for adventure.",
+      "german": "Deutsch lernen, für Abenteuer.",
+      "category": "Purpose",
+      "generated_at": "2026-03-25T18:39:25.252598"
+    },
+    {
+      "english": "Speak German, connect more.",
+      "german": "Deutsch sprechen, mehr verbinden.",
+      "category": "Purpose",
+      "generated_at": "2026-03-25T18:39:25.252607"
+    },
+    {
+      "english": "Understand films, without subtitles.",
+      "german": "Filme verstehen, ohne Untertitel.",
+      "category": "Purpose",
+      "generated_at": "2026-03-25T18:39:25.252609"
+    },
+    {
+      "english": "Travel Germany, with confidence.",
+      "german": "Deutschland bereisen, mit Zuversicht.",
+      "category": "Purpose",
+      "generated_at": "2026-03-25T18:39:25.252610"
+    },
+    {
+      "english": "Read German books, for fun.",
+      "german": "Deutsche Bücher lesen, zum Spaß.",
+      "category": "Purpose",
+      "generated_at": "2026-03-25T18:39:25.252611"
     }
   ],
-  "last_updated": "2026-03-24T23:04:05.696700"
+  "last_updated": "2026-03-25T18:39:25.252613"
 }
