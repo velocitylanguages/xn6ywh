@@ -809,7 +809,37 @@
       "german": "Kleine Siege, machen stark.",
       "category": "Success",
       "generated_at": "2026-03-26T19:41:42.753254"
+    },
+    {
+      "english": "Be brave, try new things.",
+      "german": "Sei mutig, probier Neues.",
+      "category": "Courage",
+      "generated_at": "2026-03-26T23:11:06.681495"
+    },
+    {
+      "english": "Face your fears, stand tall.",
+      "german": "Stell dich deinen Ängsten, steh auf.",
+      "category": "Courage",
+      "generated_at": "2026-03-26T23:11:06.681505"
+    },
+    {
+      "english": "Take a leap, believe in you.",
+      "german": "Mach einen Sprung, glaub an dich.",
+      "category": "Courage",
+      "generated_at": "2026-03-26T23:11:06.681506"
+    },
+    {
+      "english": "Bold steps, lead to success.",
+      "german": "Mutige Schritte, führen zum Erfolg.",
+      "category": "Courage",
+      "generated_at": "2026-03-26T23:11:06.681507"
+    },
+    {
+      "english": "Don't hesitate, just begin.",
+      "german": "Zögere nicht, fang einfach an.",
+      "category": "Courage",
+      "generated_at": "2026-03-26T23:11:06.681508"
     }
   ],
-  "last_updated": "2026-03-26T19:41:42.753256"
+  "last_updated": "2026-03-26T23:11:06.681510"
 }
