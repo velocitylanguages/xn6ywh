@@ -779,7 +779,37 @@
       "german": "Deutsche Bücher lesen, zum Spaß.",
       "category": "Purpose",
       "generated_at": "2026-03-25T18:39:25.252611"
+    },
+    {
+      "english": "Little by little, great things grow.",
+      "german": "Langsam, aber sicher, wächst Großes.",
+      "category": "Success",
+      "generated_at": "2026-03-26T19:41:42.753228"
+    },
+    {
+      "english": "Every step counts, towards your goal.",
+      "german": "Jeder Schritt zählt, zu deinem Ziel.",
+      "category": "Success",
+      "generated_at": "2026-03-26T19:41:42.753237"
+    },
+    {
+      "english": "Believe you can, and you're halfway.",
+      "german": "Glaube daran, und du bist nah.",
+      "category": "Success",
+      "generated_at": "2026-03-26T19:41:42.753238"
+    },
+    {
+      "english": "Keep pushing forward, don't give up.",
+      "german": "Bleib dran, gib nicht auf.",
+      "category": "Success",
+      "generated_at": "2026-03-26T19:41:42.753253"
+    },
+    {
+      "english": "Small wins, build big momentum.",
+      "german": "Kleine Siege, machen stark.",
+      "category": "Success",
+      "generated_at": "2026-03-26T19:41:42.753254"
     }
   ],
-  "last_updated": "2026-03-25T18:39:25.252613"
+  "last_updated": "2026-03-26T19:41:42.753256"
 }
