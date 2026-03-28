@@ -959,7 +959,37 @@
       "german": "Wahre Stärke, ist auch Güte.",
       "category": "Strength",
       "generated_at": "2026-03-28T17:05:01.264304"
+    },
+    {
+      "english": "Slow and steady, wins the race.",
+      "german": "Langsam und stetig, gewinnt das Rennen.",
+      "category": "Patience",
+      "generated_at": "2026-03-28T23:01:08.153812"
+    },
+    {
+      "english": "Good things, take time, to grow.",
+      "german": "Gute Dinge, brauchen Zeit, zum Wachsen.",
+      "category": "Patience",
+      "generated_at": "2026-03-28T23:01:08.153821"
+    },
+    {
+      "english": "Don't rush, the process, please.",
+      "german": "Überstürze nicht, den Prozess, bitte.",
+      "category": "Patience",
+      "generated_at": "2026-03-28T23:01:08.153823"
+    },
+    {
+      "english": "Just be patient, it will come.",
+      "german": "Sei einfach geduldig, es wird kommen.",
+      "category": "Patience",
+      "generated_at": "2026-03-28T23:01:08.153824"
+    },
+    {
+      "english": "Wait for it, the reward is near.",
+      "german": "Warte darauf, die Belohnung ist nah.",
+      "category": "Patience",
+      "generated_at": "2026-03-28T23:01:08.153825"
     }
   ],
-  "last_updated": "2026-03-28T17:05:01.264305"
+  "last_updated": "2026-03-28T23:01:08.153827"
 }
