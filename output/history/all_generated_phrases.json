@@ -1109,7 +1109,37 @@
       "german": "Du schaffst das, mach weiter.",
       "category": "Success",
       "generated_at": "2026-03-31T06:07:26.618913"
+    },
+    {
+      "english": "Work in Germany, unlock doors.",
+      "german": "In Deutschland arbeiten, Türen öffnen.",
+      "category": "Purpose",
+      "generated_at": "2026-03-31T16:36:37.044351"
+    },
+    {
+      "english": "Study abroad, in German.",
+      "german": "Im Ausland studieren, auf Deutsch.",
+      "category": "Purpose",
+      "generated_at": "2026-03-31T16:36:37.044357"
+    },
+    {
+      "english": "Talk to locals, build friendships.",
+      "german": "Mit Einheimischen reden, Freundschaften bauen.",
+      "category": "Purpose",
+      "generated_at": "2026-03-31T16:36:37.044359"
+    },
+    {
+      "english": "Enjoy music, in its original.",
+      "german": "Musik genießen, im Original.",
+      "category": "Purpose",
+      "generated_at": "2026-03-31T16:36:37.044360"
+    },
+    {
+      "english": "Grow your mind, learn German.",
+      "german": "Den Geist erweitern, Deutsch lernen.",
+      "category": "Purpose",
+      "generated_at": "2026-03-31T16:36:37.044361"
     }
   ],
-  "last_updated": "2026-03-31T06:07:26.618915"
+  "last_updated": "2026-03-31T16:36:37.044363"
 }
