@@ -1139,7 +1139,37 @@
       "german": "Den Geist erweitern, Deutsch lernen.",
       "category": "Purpose",
       "generated_at": "2026-03-31T16:36:37.044361"
+    },
+    {
+      "english": "Understand first, then speak.",
+      "german": "Verstehe zuerst, dann sprich.",
+      "category": "Wisdom",
+      "generated_at": "2026-04-20T20:00:14.763011"
+    },
+    {
+      "english": "Every word, counts a lot.",
+      "german": "Jedes Wort, zählt viel.",
+      "category": "Wisdom",
+      "generated_at": "2026-04-20T20:00:14.763020"
+    },
+    {
+      "english": "Be curious, learn always.",
+      "german": "Sei neugierig, lerne immer.",
+      "category": "Wisdom",
+      "generated_at": "2026-04-20T20:00:14.763021"
+    },
+    {
+      "english": "Small efforts, big results.",
+      "german": "Kleine Mühen, große Erfolge.",
+      "category": "Wisdom",
+      "generated_at": "2026-04-20T20:00:14.763023"
+    },
+    {
+      "english": "Don't fear, just try.",
+      "german": "Hab keine Angst, versuch's einfach.",
+      "category": "Wisdom",
+      "generated_at": "2026-04-20T20:00:14.763024"
     }
   ],
-  "last_updated": "2026-03-31T16:36:37.044363"
+  "last_updated": "2026-04-20T20:00:14.763026"
 }
