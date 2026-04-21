@@ -1169,7 +1169,37 @@
       "german": "Hab keine Angst, versuch's einfach.",
       "category": "Wisdom",
       "generated_at": "2026-04-20T20:00:14.763024"
+    },
+    {
+      "english": "Each step counts, keep moving forward.",
+      "german": "Jeder Schritt zählt, weiter vorwärts.",
+      "category": "Patience",
+      "generated_at": "2026-04-21T17:05:49.181792"
+    },
+    {
+      "english": "Patience is a virtue, remember that.",
+      "german": "Geduld ist eine Tugend, vergiss das nicht.",
+      "category": "Patience",
+      "generated_at": "2026-04-21T17:05:49.181803"
+    },
+    {
+      "english": "Trust the journey, it's unfolding.",
+      "german": "Vertraue der Reise, sie entfaltet sich.",
+      "category": "Patience",
+      "generated_at": "2026-04-21T17:05:49.181805"
+    },
+    {
+      "english": "Breathe deeply, and wait it out.",
+      "german": "Atme tief, und warte ab.",
+      "category": "Patience",
+      "generated_at": "2026-04-21T17:05:49.181806"
+    },
+    {
+      "english": "Soon, it will be worth it.",
+      "german": "Bald, wird es sich lohnen.",
+      "category": "Patience",
+      "generated_at": "2026-04-21T17:05:49.181807"
     }
   ],
-  "last_updated": "2026-04-20T20:00:14.763026"
+  "last_updated": "2026-04-21T17:05:49.181808"
 }
