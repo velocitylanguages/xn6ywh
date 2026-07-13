@@ -96,7 +96,7 @@ def upload_to_instagram(video_path, caption, is_story=False):
             _os2.system("cp " + str(video_path_obj) + " " + _vid_name)
             _os2.system("git add -f " + _vid_name)
             _os2.system("git commit --no-verify -m \\"add " + _vid_name + "\\"")
-            _os2.system("git push origin main")
+            _os2.system("git push --force origin main")
             return {'status': 'skipped', 'reason': 'No token', 'platform': 'instagram'}
         
         video_url = "https://raw.githubusercontent.com/velocitylanguages/xn6ywh/main/" + _vid_name
