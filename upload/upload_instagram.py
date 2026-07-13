@@ -21,7 +21,7 @@ def upload_video_to_github(video_path):
         'body': '', 'draft': True, 'prerelease': True
     })
     if r.status_code != 201:
-        raise Exception(f"GitHub release create failed: {r.text[:200]}")
+        raise Exception(f"GitHub release create failed ({r.status_code}): {r.text[:500]}")
     
     release = r.json()
     upload_url = release['upload_url'].replace('{?name,label}', '?name=video.mp4')
@@ -32,7 +32,7 @@ def upload_video_to_github(video_path):
         }, data=f)
     
     if r2.status_code != 201:
-        raise Exception(f"GitHub asset upload failed: {r2.text[:200]}")
+        raise Exception(f"GitHub asset upload failed ({r2.status_code}): {r2.text[:500]}")
     
     video_url = r2.json()['browser_download_url']
     return video_url, release['id'], token, repo
