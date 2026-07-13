@@ -18,7 +18,7 @@ def upload_video_to_github(video_path):
     
     r = requests.post(f'https://api.github.com/repos/{repo}/releases', headers=h, json={
         'tag_name': tag, 'name': f'IG Upload {tag}',
-        'body': '', 'draft': True, 'prerelease': True
+        'body': '', 'draft': False, 'prerelease': True
     })
     if r.status_code != 201:
         raise Exception(f"GitHub release create failed ({r.status_code}): {r.text[:500]}")
@@ -35,12 +35,14 @@ def upload_video_to_github(video_path):
         raise Exception(f"GitHub asset upload failed ({r2.status_code}): {r2.text[:500]}")
     
     video_url = r2.json()['browser_download_url']
-    return video_url, release['id'], token, repo
+    return video_url, release['id'], token, repo, tag
 
 
-def delete_github_release(repo, release_id, token):
-    requests.delete(f'https://api.github.com/repos/{repo}/releases/{release_id}',
-                    headers={'Authorization': f'Bearer {token}', 'Accept': 'application/vnd.github+json'})
+def delete_github_release(repo, release_id, token, tag=''):
+    h = {'Authorization': f'Bearer {token}', 'Accept': 'application/vnd.github+json'}
+    requests.delete(f'https://api.github.com/repos/{repo}/releases/{release_id}', headers=h)
+    if tag:
+        requests.delete(f'https://api.github.com/repos/{repo}/git/refs/tags/{tag}', headers=h)
 
 
 def upload_to_instagram(video_path, caption, is_story=False):
@@ -90,7 +92,7 @@ def upload_to_instagram(video_path, caption, is_story=False):
     
     try:
         print(f"[instagram] Step 1: Uploading to GitHub release...")
-        video_url, release_id, token, repo = upload_video_to_github(video_path_obj)
+        video_url, release_id, token, repo, tag = upload_video_to_github(video_path_obj)
         print(f"[instagram] GitHub URL: {video_url}")
         
         print(f"[instagram] Step 2: Creating {media_type} container...")
@@ -135,14 +137,14 @@ def upload_to_instagram(video_path, caption, is_story=False):
             elif status_code == 'ERROR':
                 error_msg = status_data.get('error_message', 'Video processing failed')
                 print(f"[instagram] Error: {error_msg}")
-                delete_github_release(repo, release_id, token)
+                delete_github_release(repo, release_id, token, tag)
                 raise Exception(error_msg)
             
             time.sleep(30)
             waited += 30
         
         if waited >= max_wait:
-            delete_github_release(repo, release_id, token)
+            delete_github_release(repo, release_id, token, tag)
             raise Exception("Video processing timed out")
         
         time.sleep(5)
@@ -163,13 +165,13 @@ def upload_to_instagram(video_path, caption, is_story=False):
         
         if not publish_resp or publish_resp.status_code != 200:
             error_msg = publish_resp.json().get('error', {}).get('message', 'Unknown') if publish_resp else 'No response'
-            delete_github_release(repo, release_id, token)
+            delete_github_release(repo, release_id, token, tag)
             raise Exception(f"Publish failed: {error_msg}")
         
         media_id = publish_resp.json().get('id')
         print(f"[instagram] SUCCESS! Media ID: {media_id}")
         
-        delete_github_release(repo, release_id, token)
+        delete_github_release(repo, release_id, token, tag)
         
         return {'id': media_id, 'platform': 'instagram', 'status': 'success'}
         
