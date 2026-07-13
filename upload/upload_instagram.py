@@ -121,11 +121,11 @@ def upload_to_instagram(video_path, caption, is_story=False):
         
         while waited < max_wait:
             status_resp = requests.get(f"{api_base}/{container_id}", params={
-                'fields': 'status,error_message', 'access_token': access_token
+                'fields': 'status_code,status', 'access_token': access_token
             }, timeout=30)
             
             status_data = status_resp.json()
-            status_code = status_data.get('status', 'UNKNOWN')
+            status_code = status_data.get('status_code') or status_data.get('status', 'UNKNOWN')
             
             print(f"[instagram] Status: {status_code} (waited {waited}s)")
             
