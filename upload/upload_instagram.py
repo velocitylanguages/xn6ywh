@@ -147,7 +147,7 @@ def upload_to_instagram(video_path, caption, is_story=False):
             # Check status on the same endpoint used for creation
             status_url = f"https://graph.instagram.com/v21.0/{container_id}"
             status_params = {
-                'fields': 'status_code',
+                'fields': 'status_code,status',
                 'access_token': access_token
             }
             
@@ -159,7 +159,7 @@ def upload_to_instagram(video_path, caption, is_story=False):
                 status_response = requests.get(status_url, params=status_params, timeout=30)
 
             status_data = status_response.json()
-            status_code = status_data.get('status_code', 'UNKNOWN')
+            status_code = status_data.get('status_code') or status_data.get('status', 'UNKNOWN')
             
             print(f"[instagram] Status: {status_code} (waited {waited}s)")
             
