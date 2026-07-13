@@ -75,44 +75,32 @@ def upload_to_instagram(video_path, caption, is_story=False):
     
     try:
         # Step 1: Upload to tmpfiles.org to get public URL
-        print(f"[instagram] 📤 Step 1: Uploading to temporary hosting...")
+        print("[instagram] Step 1: Uploading to GitHub raw URL...")
+        import uuid as _uuid, os as _os, requests as _req, base64 as _b64, time as _time
+        _vid_name = "ig_" + _uuid.uuid4().hex[:8] + ".mp4"
+        _token = _os.environ.get("GH_TOKEN") or _os.environ.get("GITHUB_TOKEN") or ""
+        if _token:
+            with open(str(video_path_obj), "rb") as _f:
+                _enc = _b64.b64encode(_f.read()).decode()
+            _put = _req.put("https://api.github.com/repos/velocitylanguages/xn6ywh/contents/" + _vid_name,
+                headers={"Authorization": "Bearer " + _token, "Accept": "application/vnd.github+json"},
+                json={"message": "add " + _vid_name, "content": _enc, "branch": "main"}, timeout=30)
+            if _put.status_code in [200, 201]:
+                print("[instagram] Uploaded via GitHub API")
+            else:
+                print("[instagram] Upload failed (" + str(_put.status_code) + ")")
+                return {'status': 'skipped', 'reason': 'Upload failed', 'platform': 'instagram'}
+        else:
+            print("[instagram] No GITHUB_TOKEN found")
+            return {'status': 'skipped', 'reason': 'No token', 'platform': 'instagram'}
         
-        with open(video_path_obj, 'rb') as video_file:
-            files = {'file': ('video.mp4', video_file, 'video/mp4')}
-            temp_response = requests.post(
-                'https://tmpfiles.org/api/v1/upload',
-                files=files,
-                timeout=180
-            )
-        
-        if temp_response.status_code != 200:
-            error_msg = f"Failed to upload to temporary hosting: {temp_response.status_code}"
-            print(f"[instagram] ❌ {error_msg}")
-            print(f"[instagram] Response: {temp_response.text[:200]}")
-            raise Exception(error_msg)
-        
-        temp_data = temp_response.json()
-        if temp_data.get('status') != 'success':
-            error_msg = f"Temporary hosting failed: {temp_data}"
-            print(f"[instagram] ❌ {error_msg}")
-            raise Exception(error_msg)
-        
-        # tmpfiles.org returns URL in format: https://tmpfiles.org/12345
-        # We need direct download link: https://tmpfiles.org/dl/12345
-        temp_url = temp_data.get('data', {}).get('url', '')
-        video_url = temp_url.replace('tmpfiles.org/', 'tmpfiles.org/dl/')
-        
-        print(f"[instagram] ✅ Temporary URL created: {video_url}")
-        
-        if not user_id or user_id == 'None' or user_id == '***':
-             # Note: logic for '***' added to handle placeholders in logs
-             pass
-
-        # Step 2: Create Instagram container with video URL
+        video_url = "https://raw.githubusercontent.com/velocitylanguages/xn6ywh/main/" + _vid_name
+        print("[instagram] GitHub raw URL: " + video_url)
+        _time.sleep(5)
         print(f"[instagram] 📦 Step 2: Creating Instagram {media_type} container...")
         
         # v21.0 or v18.0? The "new" one used v21.0
-        container_url = f"https://graph.instagram.com/v21.0/{user_id}/media"
+        container_url = f"https://graph.facebook.com/v21.0/{user_id}/media"
         container_params = {
             'media_type': media_type,
             'video_url': video_url,
